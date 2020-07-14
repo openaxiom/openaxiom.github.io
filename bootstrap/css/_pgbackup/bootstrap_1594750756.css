@@ -11550,10 +11550,6 @@ a.text-dark:focus {
     color: #ffffff;
 }
 
-.social-icons {
-    padding-left: 0px;
-}
-
 .social-icons li {
     display: inline-block;
     margin-bottom: 5px;
@@ -11561,12 +11557,7 @@ a.text-dark:focus {
 
 .fa {
     color: white;
+    font-size: 20p;
 }
-
-ul.social-icons li a {
-    font-size: 30px;
-    padding: 20px;
-}
-
 
 

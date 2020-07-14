@@ -11550,13 +11550,10 @@ a.text-dark:focus {
     color: #ffffff;
 }
 
-.social-icons {
-    padding-left: 0px;
-}
-
 .social-icons li {
     display: inline-block;
     margin-bottom: 5px;
+    padding-left: 2;
 }
 
 .fa {
