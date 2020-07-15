@@ -61,10 +61,3 @@ blue-mark {
     width: auto;
     height: auto;
 }
-
-@media (min-width:975px) {
-    .hero-top-video {
-        height: 70vh;
-    }
-}
-
