@@ -27,19 +27,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Mission</a>
                     </li>
-                    <!--<li class="dropdown dropdown-right dropdown-right-pad nav-item nav-padding-right">
+                    <li class="dropdown dropdown-right dropdown-right-pad nav-item nav-padding-right">
                         <a class="dropdown-toggle nav-link" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </li>-->
+                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <div>
-                        <a class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;">Get Started</a>
-                    </div>
+                    <button class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" type="submit">Get Started</button>
                 </form>
             </div>
         </nav>
@@ -66,7 +64,12 @@
                                             </mark>that your visitors, customers and residents<mark class="blue-mark">trust</mark>and enjoy.</p>
                                     </div>
                                     <div>
-                                        <a class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" style="min-width: 250px; font-size: 18px; font-weight: 500; padding: 1rem 1.5rem;" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;">Get Started</a>
+                                        <button class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" type="submit" style="min-width: 250px; font-size: 18px; font-weight: 500; padding: 1rem 1.5rem;">
+                                            Schedule a time to chat             
+                                            <!-- Calendly link widget begin -->
+                                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;">Learn more</a>
+                                            <!-- Calendly link widget end -->
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -385,9 +388,14 @@
                                     <p class="big-para-text" style="padding-top: 20px;">Let&apos;s work together to make our communities thrive again.</p>
                                 </div>
                                 <div style="padding-top: 40px;">
-                                    <div>
-                                        <a class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" style="min-width: 250px; font-size: 18px; font-weight: 500; padding: 1rem 1.5rem;" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;">Find a Time to Chat</a>
-                                    </div>
+                                    <button class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" type="submit" style="min-width: 250px; font-size: 18px; font-weight: 500; padding: 1rem 1.5rem;">
+                                        Schedule a time to chat             
+                                        <!-- Calendly link widget begin -->
+                                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                        <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+                                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;"></a>
+                                        <!-- Calendly link widget end -->
+                                    </button>
                                 </div>
                             </div>
                         </div>

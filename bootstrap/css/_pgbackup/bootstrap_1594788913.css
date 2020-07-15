@@ -11577,7 +11577,8 @@ ul.social-icons li a {
 }
 
 .logo-top {
-    width: 14rem;
+    width: 100px;
+    height: 100px;
     display: block;
 }
 
