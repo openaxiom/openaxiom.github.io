@@ -29,7 +29,10 @@ body {
 
 .hero-home {
     height: 70vh;
-    background-color: #222;
+    background-image: url('img/hero.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
 }
 
 text-powered-by {

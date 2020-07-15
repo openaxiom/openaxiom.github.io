@@ -11565,7 +11565,10 @@ a.text-dark:focus {
 
 ul.social-icons li a {
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
+}
+
+.logo-company {
 }
 
 
