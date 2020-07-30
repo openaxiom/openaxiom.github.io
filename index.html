@@ -17,32 +17,56 @@
         <script src="https://assets.calendly.com/assets/external/widget.js"></script>
     </head>
     <body style="background-color: #F7F8FB;">
-        <nav class="bg-white fixed-top navbar navbar-expand-md navbar-light">
+    
+
+
+    <section class="navigation bg-white fixed-top navbar navbar-expand-md navbar-light" style="display: inline-block;">
+  <div class="nav-container">
             <a class="navbar-brand" href="/"> <img src="img/logo.png" class="logo-top"/> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="ml-auto navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="mission.html">Mission</a>
-                    </li>
-                    <!--<li class="dropdown dropdown-right dropdown-right-pad nav-item nav-padding-right">
-                        <a class="dropdown-toggle nav-link" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>-->
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="mission.html">Mission</a>
+        </li>
+        <li>
+          <a href="#!">Solutions</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="/">All Solutions</a>
+            </li>
+            <li>
+              <a href="ella.html">Ella</a>
+            </li>
+
+
+                            <!-- <form class="form-inline my-2 my-lg-0"> -->
+<!--                     <div>
+                        <a class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;">Get Started</a>
+                    </div> -->
+                <!-- </form> -->
+<!--             <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li> -->
+          </ul>
+        </li>
+<li>
                     <div>
                         <a class="btn btn-outline-success btn-primary mt-0 my-sm-0 text-white top-right-button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/open-axiom/25min'});return false;">Get Started</a>
                     </div>
-                </form>
-            </div>
-        </nav>
+</li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+
+
+
+
         <div class="container" style="margin: 0 auto;">
             <div class="row" style="margin-right: 0px; margin-left: 0px;">
                 <main class="col-12" role="main">
@@ -520,5 +544,7 @@
 <!--         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
